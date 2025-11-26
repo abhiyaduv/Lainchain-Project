@@ -5,6 +5,11 @@ sentence-transformers==2.2.2
 chromadb==0.4.22
 pypdf==3.17.4
 transformers==4.36.0
-torch==2.1.2
+
+# FIXED: torch 2.1.2 is incompatible with Python 3.13
+# Use the newest compatible version
+torch==2.5.1
+
+# Keep these as-is, they work fine with Python 3.13
 accelerate==0.25.0
 huggingface-hub==0.20.1
