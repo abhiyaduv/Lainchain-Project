@@ -1,0 +1,10 @@
+langchain==0.1.0
+langchain-community==0.0.10
+streamlit==1.29.0
+sentence-transformers==2.2.2
+chromadb==0.4.22
+pypdf==3.17.4
+transformers==4.36.0
+torch==2.1.2
+accelerate==0.25.0
+huggingface-hub==0.20.1
