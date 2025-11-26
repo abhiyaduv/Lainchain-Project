@@ -5,13 +5,14 @@ streamlit==1.29.0
 sentence-transformers==3.0.1
 chromadb==0.5.4
 pypdf==3.17.4
-
 transformers==4.37.2
 
-# PyTorch stack compatible with Python 3.13
-torch==2.5.1
+# -----------------------------
+# PyTorch — Python 3.13 compatible
+# -----------------------------
+torch==2.7.1
 torchvision==0.22.1
-torchaudio==2.5.1
+torchaudio==2.7.1
 
 accelerate==0.25.0
 huggingface-hub==0.20.1
