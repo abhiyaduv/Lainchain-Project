@@ -2,22 +2,15 @@ langchain==0.1.0
 langchain-community==0.0.10
 streamlit==1.29.0
 
-# Modern version of sentence-transformers that supports Python 3.13
 sentence-transformers==3.0.1
-
-# ChromaDB updated to fix Python>=3.12 issues
 chromadb==0.5.4
-
 pypdf==3.17.4
 
-# Transformers version compatible with Python 3.13 + latest PyTorch
 transformers==4.37.2
 
-# Compatible PyTorch for Python 3.13
+# PyTorch stack compatible with Python 3.13
 torch==2.5.1
-
-# Additional packages that DO support new PyTorch
-torchvision==0.20.1
+torchvision==0.22.1
 torchaudio==2.5.1
 
 accelerate==0.25.0
